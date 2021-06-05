@@ -1,9 +1,9 @@
 pipeline{
  agent any
  stages{
-  stage('terraform init'){
+  stage('copy yaml file'){
    steps{
-     sh "terraform init"
+     sh "cp add.yml /tmp"
    } 
   }
  }
