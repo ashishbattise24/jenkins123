@@ -1,9 +1,9 @@
 pipeline{
- agent any
+ agent {'label node1'}
  stages{
   stage('copy yaml file'){
    steps{
-     sh "cp add.yml /tmp"
+     sh "echo"
    } 
   }
  }
