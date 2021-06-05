@@ -1,0 +1,9 @@
+---
+ - name: install curl pkg
+   host: all
+   
+   task:
+   - name: install curl pkg
+     yum: 
+      - name: curl
+        state: present
