@@ -3,7 +3,7 @@ pipeline{
  stages{
   stage('copy yaml file'){
    steps{
-     sh "echo"
+     sh "echo This is jenkins pipeline"
    } 
   }
  }
